@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Day-1</title>
+    <link href="/2024/05/26/day-1/"/>
+    <url>/2024/05/26/day-1/</url>
+    
+    <content type="html"><![CDATA[<p>命名规则：<br>包：所有字母小写<br>类或接口：单词首字母大写<br>方法或变量：首单词的首字母小写，其余单词首字母大写<br>常量：所有字母大写，多单词用下划线_区分</p><br/><p>8大基本数据类型：<br>整数类型：byte、short、int、long<br>小数类型：float、double<br>字符类型：char<br>布尔类型：boolean</p><br/><p>引用数据类型：<br>类、接口、数组、枚举、注解、字符串等</p><br/><p>算数运算符++、–的用法：<br>i++,先赋值，再运算<br>++i,先运算，再赋值</p><br/><p>逻辑运算符：<br>位运算符、逻辑运算符：&amp;、|、^<br>逻辑运算符：！、&amp;&amp;、||<br>&amp;&amp;与&amp;的区别：<br>当根据的表达式左边或右边已经可以判断出整个表达式的真假时，&amp;&amp;将不再执行代码，从而节省性能。<br>&amp;可作为位运算符，进行二进制间的计算</p><br/><p>switch语句：</p><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs arduino"><span class="hljs-keyword">switch</span>(表达式)&#123;<br>      <span class="hljs-keyword">case</span> 值：<br>      语句体<br>      <span class="hljs-keyword">break</span>;<br>      <span class="hljs-keyword">case</span> 值：<br>      语句体<br>      <span class="hljs-keyword">break</span>;<br>      ...<br>      <span class="hljs-keyword">default</span>:<br>      语句体<br>      <span class="hljs-keyword">break</span>;<br>&#125;<br><br></code></pre></td></tr></table></figure><p>注意点：switch语句的原理是跳转到case值的位置执行下面的所有语句，包括其他case里面的值，直到最后或者遇到break。</p><br/><p>for循环语句和while循环的区别：<br>控制条件语句的变量，在for循环结束后便不能被访问，而while循环结束后还可以继续使用。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>仅以此博客记录我的学习生活</title>
     <link href="/2024/05/24/%E4%BB%85%E4%BB%A5%E6%AD%A4%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%94%9F%E6%B4%BB/"/>
     <url>/2024/05/24/%E4%BB%85%E4%BB%A5%E6%AD%A4%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%94%9F%E6%B4%BB/</url>
