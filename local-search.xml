@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>week-01-supplement</title>
+    <link href="/2024/06/03/week-01-supplement/"/>
+    <url>/2024/06/03/week-01-supplement/</url>
+    
+    <content type="html"><![CDATA[<ol><li><h2 id="接口与抽象类的区别"><a href="#接口与抽象类的区别" class="headerlink" title="接口与抽象类的区别"></a>接口与抽象类的区别</h2><table><thead><tr><th></th><th>抽象类</th><th>接口</th></tr></thead><tbody><tr><td>关键字</td><td>abstract  class</td><td>interface</td></tr><tr><td>类</td><td>继承 extends  单继承</td><td>实现  implements 多实现</td></tr><tr><td>有无构造方法</td><td>有构造方法</td><td>无构造方法</td></tr><tr><td>变量</td><td>可以有成员变量</td><td>公开的静态的常量 public static final</td></tr><tr><td>方法</td><td>可以有成员方法，也可以有抽象方法</td><td>JDK8之前：公开的抽象的方法 public abstract<br/>JDK8版本：默认default的和静态static的方法<br/>JDK9版本：私有的成员方法（静态的或非静态的）</td></tr></tbody></table></li><li><h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2><p>同种行为具有多个不同表现形式</p><p>定义：父类的引用变量指向子类对象</p><p>普通类多态定义格式：<br>父类 变量名&#x3D;new 子类（）；</p></li><li><h2 id="instanceof关键字"><a href="#instanceof关键字" class="headerlink" title="instanceof关键字"></a>instanceof关键字</h2><p>格式：boolean 变量名&#x3D;对象名 instanceof 类名</p></li><li><h2 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h2><p>成员内部类：在一个类的内部声明一个类</p><p>定义格式：</p><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-symbol">Outer</span>&#123;<br>    <span class="hljs-keyword">class</span> <span class="hljs-symbol">Inner</span>&#123;<br>        <span class="hljs-comment">//其他代码</span><br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>访问格式：</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">Outer</span>.<span class="hljs-keyword">Inner</span>=<span class="hljs-built_in">new</span> <span class="hljs-keyword">Outer</span>().<span class="hljs-built_in">new</span> <span class="hljs-keyword">Inner</span>();<br></code></pre></td></tr></table></figure></li><li><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>静态代码块：<br>格式：static{}<br>特点：类加载时自动执行，只加载一次，完成类的初始化</p><p>实例代码块：<br>格式：{}<br>特点：每次创建对象时，在构造函数之前执行，完成对对象的初始化</p></li><li><h2 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h2><p>格式：</p><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">enum</span> 枚举名 &#123;<br>枚举实例<br>&#125;<br></code></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>week-01</title>
     <link href="/2024/06/03/Week-01/"/>
     <url>/2024/06/03/Week-01/</url>
